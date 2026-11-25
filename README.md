@@ -6,6 +6,9 @@ A full-stack event management app.
 - Backend: Node.js + Express
 - Database: MongoDB (Mongoose)
 
+- ## DEPLOY LINK:
+- https://event-site-weld.vercel.app
+
 ## Features
 
 **Participant**
@@ -136,3 +139,5 @@ event-management/
 - **"MongoDB connection failed"**: start MongoDB (`mongod`, or the MongoDB service), or use an Atlas URI.
 - **Frontend shows network errors**: make sure the backend is running on port 5000.
 - **Port already in use**: change `PORT` in `server/.env` and the proxy target in `client/vite.config.js`.
+
+
